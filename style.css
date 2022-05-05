@@ -1,0 +1,252 @@
+body {
+  background-color: #ffe2e6;
+}
+
+h1 {
+  color: #616161;
+  padding: 3px;
+  margin: 10px;
+  text-align: center;
+  font-size: 90px;
+  font-family: monospace;
+}
+
+.textBox {
+  display: flex;
+  flex-direction: column;
+  font-size: 30px;
+  padding: 3vmin;
+  background-color: #fe8f98;
+  color: black;
+  width: 60%;
+  border: 20px double pink;
+  justify-content: center;
+  margin-left: 300px;
+  text-align: center;
+  margin-top: 0px;
+  font-family: monospace;
+}
+
+/* #gif1{
+  display: flex;
+  /* transform: rotate(-15deg); */
+/* width: 300px;
+  /* top: 110%;
+  right: 85%; */
+/* padding-top: 20px;
+padding-bottom: 30px; */
+/* #gif3{ */
+/* position: absolute; */
+/* display: flex;
+  /* transform: rotate(15deg); */
+/* width: 350px;
+height:160px; */
+/* top: 110%;
+  right: 150px; */
+/* padding-top: 20px;
+   padding-bottom: 30px;
+}  */
+.heading {
+  font-size: 35px;
+  text-align: center;
+  color: black;
+  text-shadow: 2px 2px grey;
+  background-color: inherit;
+}
+
+.textBox2 {
+  display: flex;
+  flex-direction: column;
+  font-size: 25px;
+  padding: 3vmin;
+  background-color: #fe8f98;
+  color: black;
+  width: 30%;
+  border: 20px double pink;
+  justify-content: center;
+  margin-left: 120px;
+  text-align: center;
+  margin-top: 0px;
+}
+
+h3 {
+  font size: 45px;
+  font-family: monospace;
+  font-weight: bolder;
+  font-style: italic;
+}
+
+p {
+  font-family: monospace;
+}
+
+.textBox3 {
+  display: flex;
+  flex-direction: row;
+  font-size: 30px;
+  padding: 2vmin;
+  background-color: #fe8f98;
+  color: black;
+  width: 40%;
+  border: 20px double pink;
+  margin-left: 850px;
+  margin-top: 2.5%;
+  position: relative;
+  bottom: 680px;
+  font-family: monospace;
+}
+
+.textBox4 {
+  display: flex;
+  flex-direction: column;
+  font-size: 30px;
+  padding: 3vmin;
+  background-color: #fe8f98;
+  color: black;
+  width: 30%;
+  border: 20px double pink;
+  justify-content: center;
+  margin-left: 1000px;
+  text-align: center;
+  margin-top: 0px;
+  position: relative;
+  right: 50px;
+  bottom: 730px;
+}
+
+h5 {
+  font size: 60px;
+  font-weight: bolder;
+  font-family: monospace;
+  font-style: italic;
+}
+
+.textBox5 {
+  display: flex;
+  flex-direction: column;
+  font-size: 25px;
+  padding: 3vmin;
+  background-color: #fe8f98;
+  color: black;
+  width: 30%;
+  border: 20px double pink;
+  justify-content: center;
+  margin-left: 600px;
+  text-align: center;
+  margin-top: 0px;
+  position: relative;
+  right: 500px;
+  bottom: 530px;
+}
+
+h6 {
+  font-size: 50px;
+  font weight: bolder;
+  margin-top: .3em;
+  margin-bottom: .3em;
+  font-family: monospace;
+  font-style: italic;
+}
+
+/* PROF NOTE: This CSS rule is breaking the "UL" elements used in the Glide-
+              we can use the special "not()" function to specify ULs that aren't for the Glide*/
+/* ul {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+} */
+
+ul:not(.glide__slides) {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.textBox6 {
+  display: flex;
+  flex-direction: column;
+  font-size: 25px;
+  padding: 3vmin;
+  background-color: #fe8f98;
+  color: black;
+  width: 30%;
+  border: 20px double pink;
+  justify-content: center;
+  margin-left: 1500px;
+  text-align: center;
+  margin-top: 0px;
+  position: relative;
+  right: 500px;
+  bottom: 1470px;
+}
+
+.textbox7 {
+  display: flex;
+  flex-direction: column;
+  font-size: 25px;
+  padding: 3vmin;
+  background-color: #fe8f98;
+  color: black;
+  width: 40%;
+  border: 20px double pink;
+  justify-content: center;
+  margin-left: 1000px;
+  text-align: center;
+  margin-top: 0px;
+  position: relative;
+  right: 500px;
+  bottom: 1470px;
+}
+
+.textbox8 {
+  display: flex;
+  flex-direction: column;
+  font-size: 25px;
+  padding: 3vmin;
+  background-color: #fe8f98;
+  color: black;
+  width: 50%;
+  border: 20px double pink;
+  justify-content: center;
+  margin-left: 900px;
+  text-align: center;
+  margin-top: 0px;
+  position: relative;
+  right: 500px;
+  bottom: 1380px;
+}
+
+.textbox9 {
+  display: flex;
+  flex-direction: column;
+  font-size: 25px;
+  padding: 3vmin;
+  background-color: #fe8f98;
+  color: black;
+  width: 58%;
+  border: 20px double pink;
+  justify-content: center;
+  margin-left: 820px;
+  text-align: center;
+  margin-top: 0px;
+  position: relative;
+  right: 500px;
+  bottom: 1300px;
+}
+
+.resources {
+  display: flex;
+  flex-direction: column;
+  padding: 3vmin;
+  background-color: #fe8f98;
+  width: 58%;
+  border: 20px double pink;
+  justify-content: center;
+  margin-left: 820px;
+  text-align: center;
+  margin-top: 0px;
+  position: relative;
+  right: 500px;
+  bottom: 1300px;
+
+}
